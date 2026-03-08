@@ -2,6 +2,7 @@ body{
 font-family: Arial;
 margin:0;
 background:#f5f7fb;
+scroll-behavior:smooth;
 }
 
 header{
@@ -23,7 +24,8 @@ background:white;
 padding:20px;
 border-radius:12px;
 text-align:center;
-cursor:pointer;
+text-decoration:none;
+color:black;
 transition:0.3s;
 box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
