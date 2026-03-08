@@ -1,51 +1,113 @@
-body{
-font-family: Arial;
-margin:0;
-background:#f5f7fb;
+html{
 scroll-behavior:smooth;
 }
 
-header{
-text-align:center;
-padding:40px;
-background:#1e3a8a;
-color:white;
+body{
+
+font-family:'Special Elite', monospace;
+
+margin:0;
+
+background:#eaf6ff;
+
+color:#003049;
+
 }
+
+
+
+header{
+
+text-align:center;
+
+padding:50px;
+
+background:#9bd4ff;
+
+border-bottom:4px solid #5fb6ff;
+
+}
+
+
+
+h1{
+
+font-size:40px;
+
+}
+
+
 
 .menu{
+
 display:grid;
+
 grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+
 gap:20px;
+
 padding:40px;
+
 }
+
+
 
 .card{
-background:white;
-padding:20px;
-border-radius:12px;
-text-align:center;
+
+background:#cceaff;
+
+padding:30px;
+
+border-radius:10px;
+
 text-decoration:none;
-color:black;
+
+color:#003049;
+
+text-align:center;
+
+font-size:18px;
+
 transition:0.3s;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+border:2px solid #5fb6ff;
+
 }
+
+
 
 .card:hover{
+
+background:#9bd4ff;
+
 transform:scale(1.05);
+
 }
 
-.card img{
-width:80px;
-}
+
 
 .info{
-padding:60px;
+
 background:white;
-margin:40px;
+
+margin:50px;
+
+padding:50px;
+
 border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,0.1);
+
+border-left:8px solid #5fb6ff;
+
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
 }
 
+
+
 h2{
-color:#1e3a8a;
+
+color:#0077b6;
+
+margin-bottom:20px;
+
 }
